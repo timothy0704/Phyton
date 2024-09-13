@@ -1,0 +1,7 @@
+#Palindrome
+print(
+    # If the word is the same backward, print "Palindrome"
+    "Palindrome" if input("Enter a word: ") == input()[::-1]
+    # If not, print "Not a palindrome"
+    else "Not a palindrome"
+)
