@@ -1,0 +1,6 @@
+#even or odd
+num = int(input("Enter a number: "))
+# Check if the number is even or odd
+# If the number modulo 2 equals 0, it is even; otherwise, it is odd
+print("Even" if num % 2 == 0 else "Odd")
+
